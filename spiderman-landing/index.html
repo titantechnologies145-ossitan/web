@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the amazing world of Spider-Man.">
+  <title>Spider-Man | Your Friendly Neighborhood Hero</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo"><span>SPIDER</span><span class="red">MAN</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#movies">Movies</a><a href="#contact">Contact</a>
+    </nav>
+    <a href="#about" class="nav-button">Explore <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="dot"></span> YOUR FRIENDLY NEIGHBORHOOD HERO</p>
+        <h1>WITH GREAT<br>POWER COMES<br><span>GREAT RESPONSIBILITY.</span></h1>
+        <p class="hero-description">A hero isn't measured by how much power he has, but by how he chooses to use it. Welcome to the amazing world of Spider-Man.</p>
+        <div class="hero-buttons">
+          <a href="#about" class="primary-button">Discover More <span>→</span></a>
+          <a href="#movies" class="secondary-button">Explore Movies</a>
+        </div>
+        <div class="hero-bottom"><span>NEW YORK CITY</span><span class="line"></span><span>EST. 1962</span></div>
+      </div>
+      <div class="hero-side-text">FRIENDLY NEIGHBORHOOD SPIDER-MAN</div>
+      <div class="hero-number">01 / 03</div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label">01 — THE LEGEND</div>
+      <div class="about-grid">
+        <div class="about-visual"><div class="spider-symbol">🕷</div><div class="visual-caption">WITH GREAT POWER...</div></div>
+        <div class="about-content">
+          <p class="red-text">MEET THE HERO</p>
+          <h2>MORE THAN<br>A <span>SUPERHERO.</span></h2>
+          <p>Behind the mask is Peter Parker, an ordinary young man with extraordinary abilities. After being bitten by a radioactive spider, his life changes forever.</p>
+          <p>With incredible strength, agility, and the ability to climb walls, Spider-Man protects New York City while learning what it truly means to be a hero.</p>
+          <a href="#movies" class="text-link">DISCOVER HIS STORY →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="movies section" id="movies">
+      <div class="section-label">02 — THE COLLECTION</div>
+      <div class="section-heading">
+        <div><p class="red-text">ON THE BIG SCREEN</p><h2>ICONIC <span>ADVENTURES.</span></h2></div>
+        <p>Every hero has a story. Explore some of Spider-Man's most memorable adventures.</p>
+      </div>
+      <div class="movie-grid">
+        <article class="movie-card"><div class="movie-art movie-one"><span class="movie-year">2002</span><span class="movie-name">SPIDER-MAN</span></div><h3>Spider-Man</h3><p>The beginning of an extraordinary journey.</p></article>
+        <article class="movie-card"><div class="movie-art movie-two"><span class="movie-year">2012</span><span class="movie-name">THE AMAZING</span></div><h3>The Amazing Spider-Man</h3><p>A new take on the legendary web-slinger.</p></article>
+        <article class="movie-card"><div class="movie-art movie-three"><span class="movie-year">2017</span><span class="movie-name">HOMECOMING</span></div><h3>Spider-Man: Homecoming</h3><p>A young hero discovers his true potential.</p></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <p class="red-text">THE CITY NEEDS A HERO</p>
+        <h2>BE AMAZING.<br><span>BE SPIDER-MAN.</span></h2>
+        <p>Every small action can make a big difference.</p>
+        <a href="#home" class="primary-button">Back to Top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo"><span>SPIDER</span><span class="red">MAN</span></a>
+    <p>Made with passion for the friendly neighborhood hero.</p>
+    <p class="copyright">© <span id="year"></span> Fan-made concept. Spider-Man and related characters are owned by Marvel.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
